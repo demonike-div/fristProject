@@ -1,0 +1,261 @@
+
+body{
+    background-color: black;
+    margin:0;
+    padding:0;
+}
+
+.text1{
+    width:650px;
+    height:30px;
+    margin:0;
+    padding:0;
+    list-style: none;
+    display:block;
+    
+    position:absolute;
+    z-index:100;
+    right:20px;/* 定位到右上 */
+    top:15px;
+    position:fixed;
+}
+#txt{
+float:left;
+margin: 5px;
+text-decoration: none;
+padding: 10px;
+}
+#txt a{
+text-decoration: none;
+color:white;
+}
+#txt a:hover{
+ color:#54a0ff;
+}
+
+#cards img{
+   padding-left: 10px;
+   padding-right: 10px;
+   
+   position:relative;
+   
+   display: block;
+   float: left;
+
+}
+
+.face{
+    color: #fff;
+    position:absolute;
+    top: 350px;    
+    font-size: 38px;
+    left: 100px;  
+   
+}
+.face1{
+    color: #fff;
+    position:absolute;
+    top: 420px;  
+    font-size: 30px;
+    left: 100px;
+}
+#txt2{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   width: 100%;
+   top:80px;   
+   height: 830pxs;
+ 
+}
+
+#photo{
+background-size:cover;
+background-position:50%;
+background-repeat: no-repeat;
+background-image:url("https://img.alicdn.com/tfs/TB1KwbWgoz1gK0jSZLeXXb9kVXa-2880-1256.png");
+height:807px;
+margin: 0;
+z-index:0;
+}
+
+#typefacs{
+    
+    position:absolute;
+    top: 890px;
+    left: 100px;
+    font-size:28px;
+    color:white;
+ 
+    clear: both;
+}
+.loge{
+   position: fixed;
+   top: 10px;
+}
+.loge2{
+   height: 52px;
+}
+.butn1{
+position: absolute;
+right: 80px;
+width: 35px;
+height: 38%;
+margin-top: -330px;
+text-indent: -99999px;
+background: url(https://img.alicdn.com/tfs/TB1xvDkgqL7gK0jSZFBXXXZZpXa-40-106.png) no-repeat 50%;
+padding: 0;
+border: 0px;
+background-size:20px 53px;
+transition:0.4;
+cursor: pointer;
+
+}
+
+.butn2{
+position: absolute;
+
+left: 90px;
+width: 35px;
+height: 38%;
+text-indent: -99999px;
+margin-top: -335px;
+transform: rotate(180deg);
+background: url(https://img.alicdn.com/tfs/TB1xvDkgqL7gK0jSZFBXXXZZpXa-40-106.png) no-repeat 50%;
+background-size: 20px 53px;
+border: 0px;
+cursor: pointer;
+}
+
+#secendBox{
+   
+   /*  position: absolute; */
+    width: 1170px;
+    height: 420px;
+    overflow: hidden;
+    /* background-color: white; */
+   
+    /* left: 250px; */
+    margin: 150px auto;
+   
+    
+}
+#cards{
+    transform:translateX(0);
+    transition: 2s;
+    display:flex;
+} 
+/* #meting{
+    
+    color: white;
+    font-size: 21px;
+    position:absolute;
+    top: 520px;    
+    left: 100px;  
+    
+    box-sizing: border-box;
+    z-index:1;
+} 
+ #met{
+    width: 200px;
+    height: 60px;
+    background-color: violet;
+    position:absolute;
+    top: 510px;    
+    left: 80px;  
+    z-index:-1;
+    
+} */
+#scene{
+    font-size: 21px;
+    color: white;
+    position: absolute;
+    top: 1680px;
+    left: 100px;
+}
+#threeBox{
+    width: 1138px;
+    height: 270px;
+    overflow: hidden;
+    margin: 150px auto;
+}
+#cards2{
+    transform:translateX(0);
+    transition: 2s;
+    display:flex;
+    
+}
+
+.butnn1{
+    position: absolute;
+    right: 80px;
+    width: 35px;
+    height: 38%;
+    margin-top: -420px;
+    text-indent: -99999px;
+    background: url(https://img.alicdn.com/tfs/TB1xvDkgqL7gK0jSZFBXXXZZpXa-40-106.png) no-repeat 50%;
+    padding: 0;
+    border: 0px;
+    background-size:20px 53px;
+    transition:0.4;
+    cursor: pointer;
+}
+.butnn2{
+    position: absolute;
+    left: 90px;
+    width: 35px;
+    height: 38%;
+    text-indent: -99999px;
+    margin-top: -425px;
+    transform: rotate(180deg);
+    background: url(https://img.alicdn.com/tfs/TB1xvDkgqL7gK0jSZFBXXXZZpXa-40-106.png) no-repeat 50%;
+    background-size: 20px 53px;
+    border: 0px;
+    cursor: pointer;
+}
+.temp{
+    /* position: absolute; */
+    position: relative;
+    height: 130px;
+    bottom: 40px;
+    left: 0;
+    width: 225px;
+    background-color: rgba(0,0,0,.6);
+    padding: 9px 30px;
+    overflow: hidden;
+    transition: all .5s ease;
+    
+}
+.title{
+    position: relative;
+    line-height: 20px;
+    font-size: 18px;
+    color: #fff;
+    white-space: nowrap;
+    font-weight: 700;
+    
+}
+.title:before{
+    position: absolute;
+    content: "";
+    left: -10px;
+    background-image: linear-gradient(180deg,#3cb9ff,#6044d4);
+    width: 2px;
+    height: 18px;
+    top: 50%;
+    margin-top: -8px;
+    
+}
+.intr{
+    position: relative;
+    line-height: 18px;
+    font-size: 15px;
+    color: #fff;
+    height: 72px;
+    overflow: hidden;
+    margin-top: 9px;
+    
+}
+.temp:hover{
+    transform:translateY(-100px);
+}
